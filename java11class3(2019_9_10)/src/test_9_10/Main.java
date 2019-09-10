@@ -102,6 +102,7 @@ public class Main {
         System.out.println("第二个人手中的牌"+hands.get(1));
         System.out.println("第三个人手中的牌"+hands.get(2));
         play(hands);
+        System.out.println("测试一下");
     }
 
 
