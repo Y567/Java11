@@ -55,8 +55,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Java11/java11class3(2019_9_10)/src/test_9_10/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+            <state relative-caret-position="84">
+              <caret line="97" column="20" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -112,6 +112,7 @@
         <option value="$PROJECT_DIR$/java11class3(2019_9_10)/src/test_9_10/Main.java" />
         <option value="$PROJECT_DIR$/java11class3(2019_9_10)/src/test_9_10/Student.java" />
         <option value="$PROJECT_DIR$/java11class3(2019_9_10)/src/test_9_10/Aircle.java" />
+        <option value="$PROJECT_DIR$/../Java11/java11class3(2019_9_10)/src/test_9_10/Main.java" />
       </list>
     </option>
   </component>
@@ -335,7 +336,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568131242847</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="关于List集合及其子集的使用，并实现了一个简单的小游戏&#10;（扑克牌--&gt;洗牌--&gt;抓牌）">
+      <created>1568131662156</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1568131662156</updated>
+    </task>
+    <task id="LOCAL-00009" summary="测试一下提交，在主方法里加了一个语句">
+      <created>1568131805661</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1568131805661</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -403,7 +418,8 @@
     <MESSAGE value="2019年9月5日" />
     <MESSAGE value="新增AddTest类" />
     <MESSAGE value="关于List集合及其子集的使用，并实现了一个简单的小游戏&#10;（扑克牌--&gt;洗牌--&gt;抓牌）" />
-    <option name="LAST_COMMIT_MESSAGE" value="关于List集合及其子集的使用，并实现了一个简单的小游戏&#10;（扑克牌--&gt;洗牌--&gt;抓牌）" />
+    <MESSAGE value="测试一下提交，在主方法里加了一个语句" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试一下提交，在主方法里加了一个语句" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Java11/java11clss2(2019_9_8)/src/test9_8/Main.java">
@@ -690,8 +706,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Java11/java11class3(2019_9_10)/src/test_9_10/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="89" column="5" lean-forward="true" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+        <state relative-caret-position="84">
+          <caret line="97" column="20" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
         </state>
       </provider>
     </entry>
