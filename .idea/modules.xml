@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java11.iml" filepath="$PROJECT_DIR$/Java11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Java11/Test/Test.iml" filepath="$PROJECT_DIR$/../Java11/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/java11class1(2019_9_5)/java11class1(2019_9_5).iml" filepath="$PROJECT_DIR$/java11class1(2019_9_5)/java11class1(2019_9_5).iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Java11/java11class3(2019_9_10)/java11class3(2019_9_10).iml" filepath="$PROJECT_DIR$/../Java11/java11class3(2019_9_10)/java11class3(2019_9_10).iml" />
+      <module fileurl="file://$PROJECT_DIR$/java11class3(2019_9_10)/java11class3(2019_9_10).iml" filepath="$PROJECT_DIR$/java11class3(2019_9_10)/java11class3(2019_9_10).iml" />
       <module fileurl="file://$PROJECT_DIR$/java11clss2(2019_9_8)/java11clss2(2019_9_8).iml" filepath="$PROJECT_DIR$/java11clss2(2019_9_8)/java11clss2(2019_9_8).iml" />
     </modules>
   </component>
