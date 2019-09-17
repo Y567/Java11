@@ -1,15 +1,13 @@
 package test_9_14;
 
-import java.util.List;
-
 public class BinaryTree {
     private static class Node{
-        private char val;
+        private int val;
         private Node left;
         private  Node right;
 
         //这里构造方法只是内部使用，所以可以为private
-        private Node(char val){
+        private Node(int val){
             this.val = val;
         }
 
@@ -117,8 +115,8 @@ public class BinaryTree {
         if(root.left == null && root.right == null){
             return 1;
         }
-        int left = getSize2(root.left);
-        int right = getSize2(root.right);
+        int left = getLeafSize2(root.left);
+        int right = getLeafSize2(root.right);
         return left+right;
     }
 
@@ -133,6 +131,75 @@ public class BinaryTree {
         int right = getBinaryTreeOfHigh(root.right);
         return Math.max(left,right)+1;
     }
+
+    //求二叉树第K层的结点数
+
+    /**
+     * 汇总思想
+     * 1.求K-1层的左子树的孩子节点数
+     * 2.求右边
+     * 3.加起来
+     */
+
+    public static int getKLevel(Node root,int k){
+        if(root == null){
+            return 0;
+        }
+        if(root != null && k == 1){
+            return 1;
+        }
+        return getKLevel(root.left,k-1)+getKLevel(root.right,k-1);
+    }
+
+    //查找val所在结点，找不到返回null
+    public static Node find(Node root,int val){
+        if(root == null){
+            return null;
+        }
+        if(root.val == val){
+            return root;
+        }
+        Node l = find(root.left,val);
+        Node r = find(root.right,val);
+        if(l != null){
+            return l;
+        }else if(r != null){
+            return r;
+        }else{
+            return  null;
+        }
+    }
+
+    //判断val是否在二叉树中
+    public static boolean find2(Node root,int val){
+        if(root == null){
+            return false;
+        }
+        if(root.val == val){
+            return true;
+        }
+        if(find2(root.left,val)){
+            return true;
+        }else if(find2(root.right,val)){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    //判断两个二叉树是否互为镜像
+    public static boolean isMirrorTree(Node p,Node q){
+        if(p == null && q == null){
+            return true;
+        }
+        if(p == null || q == null){
+            return false;
+        }
+        if(p.val == q.val && isMirrorTree(p.left,q.right) && isMirrorTree(p.right,q.left)){
+            return true;
+        }
+        return false;
+    }
     public static void main(String[] args) {
         Node root = builderTree();
         System.out.println("前");
@@ -144,5 +211,8 @@ public class BinaryTree {
         System.out.println("后");
         postOrderTraversal(root);
         System.out.println("测试一下二叉树的高度为"+getBinaryTreeOfHigh(root));
+        getLeafSize(root);
+        System.out.println("遍历的思想求叶子结点数"+leafSize);
+        System.out.println("汇总的思想求叶子节点数"+getLeafSize2(root));
     }
 }
