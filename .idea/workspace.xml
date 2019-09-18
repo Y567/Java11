@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07a45901-b95b-4b08-8cf7-6b358e2b6788" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Java11/Test/src/arraysKit/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java11/java11class6(2019_9_17)/java11class6(2019_9_17).iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java11/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java11/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java11/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java11/java11class5(2019_9_14)/src/test_9_14/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java11/java11class5(2019_9_14)/src/test_9_14/BinaryTree.java" afterDir="false" />
-    </list>
+    <list default="true" id="07a45901-b95b-4b08-8cf7-6b358e2b6788" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,29 +12,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DemoStack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Java11/java11class4(2019_9_14)/src/test_9_14/DemoStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DequeDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Java11/java11class4(2019_9_14)/src/test_9_14/DequeDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LinkedListDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Java11/java11class4(2019_9_14)/src/test_9_14/LinkedListDemo.java">
+        <entry file="file://$PROJECT_DIR$/java11class4(2019_9_14)/src/test_9_14/LinkedListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
               <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
@@ -49,7 +22,7 @@
         </entry>
       </file>
       <file leaf-file-name="MyStack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Java11/java11class4(2019_9_14)/src/test_9_14/MyStack.java">
+        <entry file="file://$PROJECT_DIR$/java11class4(2019_9_14)/src/test_9_14/MyStack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
@@ -61,7 +34,7 @@
         </entry>
       </file>
       <file leaf-file-name="MyQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Java11/java11class4(2019_9_14)/src/test_9_14/MyQueue.java">
+        <entry file="file://$PROJECT_DIR$/java11class4(2019_9_14)/src/test_9_14/MyQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
@@ -73,50 +46,37 @@
         </entry>
       </file>
       <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Java11/java11class5(2019_9_14)/src/test_9_14/BinaryTree.java">
+        <entry file="file://$PROJECT_DIR$/java11class5(2019_9_14)/src/test_9_14/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="300">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Java11/java11class5(2019_9_14)/src/test_9_14/Node.java">
+        <entry file="file://$PROJECT_DIR$/java11class5(2019_9_14)/src/test_9_14/Node.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Java11/java11class6(2019_9_17)/src/test_9_17binarytree/Main.java">
+        <entry file="file://$PROJECT_DIR$/java11class6(2019_9_17)/src/test_9_17binarytree/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="86" column="4" lean-forward="true" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
+            <state relative-caret-position="150">
+              <caret line="162" column="22" selection-start-line="162" selection-start-column="22" selection-end-line="162" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#2149#2150#0" expanded="true" />
-                <element signature="e#2185#2186#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Java11/java11class1(2019_9_5)/src/test9_5/List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="QueueDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Java11/java11class4(2019_9_14)/src/test_9_14/QueueDemo.java">
+        <entry file="file://$PROJECT_DIR$/java11class4(2019_9_14)/src/test_9_14/QueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="500">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
@@ -134,12 +94,18 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>E:\Java11\javaWeb\src</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Java11" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -180,7 +146,8 @@
         <option value="$PROJECT_DIR$/Test/src/arraysKit/test.java" />
         <option value="$PROJECT_DIR$/Test/src/demomath/DemoMath.java" />
         <option value="$PROJECT_DIR$/java11class5(2019_9_14)/src/test_9_14/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/../Java11/java11class6(2019_9_17)/src/test_9_17binarytree/Main.java" />
+        <option value="$PROJECT_DIR$/java11class6(2019_9_17)/src/test_9_17binarytree/Main.java" />
+        <option value="$PROJECT_DIR$/javaWeb/src/javaScript/test.html" />
       </list>
     </option>
   </component>
@@ -191,8 +158,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="776" />
+    <option name="y" value="42" />
     <option name="width" value="480" />
     <option name="height" value="728" />
   </component>
@@ -202,6 +169,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,64 +179,19 @@
               <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java11" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java11" type="462c0819:PsiDirectoryNode" />
-              <item name="java11class5(2019_9_14)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java11" type="462c0819:PsiDirectoryNode" />
-              <item name="java11class5(2019_9_14)" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java11" type="462c0819:PsiDirectoryNode" />
-              <item name="java11class5(2019_9_14)" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test_9_14" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java11" type="462c0819:PsiDirectoryNode" />
-              <item name="java11class6(2019_9_17)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java11" type="462c0819:PsiDirectoryNode" />
-              <item name="java11class6(2019_9_17)" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java11" type="462c0819:PsiDirectoryNode" />
-              <item name="java11class6(2019_9_17)" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test_9_17binarytree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java11" type="462c0819:PsiDirectoryNode" />
-              <item name="java11class6(2019_9_17)" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test_9_17binarytree" type="462c0819:PsiDirectoryNode" />
-              <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -547,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568456865397</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="关于二叉树的一系列知识点更新&#10;1.利用前序遍历和中序遍历数组创建二叉树&#10;2.利用后序遍历和中序遍历数组创建二叉树&#10;3.一道算法题（求两个给定结点的最近公共祖先）">
+      <created>1568730755080</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1568730755080</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -561,34 +493,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49761903" weight="0.32663316" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.49761903" visible="true" weight="0.3250825" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.33661118" side_tool="true" weight="0.49669966" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6633888" visible="true" weight="0.16831683" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6633888" weight="0.16831683" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.29537955" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17397882" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24054463" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32838285" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -621,251 +553,224 @@
     <MESSAGE value="Test类里面增加了个String的简单的使用和小练习" />
     <MESSAGE value="增加了栈和队列的相关知识以及使用" />
     <MESSAGE value="关于二叉树的一系列知识点&#10;1.实现了二叉树的简单创建&#10;2.二叉树的前，中，后遍历&#10;3.求叶子结点&#10;4.用两种思想实现遍历和叶子结点个数（汇总思想和遍历思想）" />
-    <option name="LAST_COMMIT_MESSAGE" value="关于二叉树的一系列知识点&#10;1.实现了二叉树的简单创建&#10;2.二叉树的前，中，后遍历&#10;3.求叶子结点&#10;4.用两种思想实现遍历和叶子结点个数（汇总思想和遍历思想）" />
+    <MESSAGE value="关于二叉树的一系列知识点更新&#10;1.利用前序遍历和中序遍历数组创建二叉树&#10;2.利用后序遍历和中序遍历数组创建二叉树&#10;3.一道算法题（求两个给定结点的最近公共祖先）" />
+    <option name="LAST_COMMIT_MESSAGE" value="关于二叉树的一系列知识点更新&#10;1.利用前序遍历和中序遍历数组创建二叉树&#10;2.利用后序遍历和中序遍历数组创建二叉树&#10;3.一道算法题（求两个给定结点的最近公共祖先）" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class3(2019_9_10)/src/test_9_10/Aircle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11clss2(2019_9_8)/src/test9_8/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class1(2019_9_5)/src/test9_5/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class1(2019_9_5)/src/test9_5/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11clss2(2019_9_8)/src/test9_8/AddTest.java">
+    <entry file="file://$PROJECT_DIR$/java11clss2(2019_9_8)/src/test9_8/AddTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class1(2019_9_5)/src/test9_5/Test.java">
+    <entry file="file://$PROJECT_DIR$/java11class1(2019_9_5)/src/test9_5/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/out/production/java11clss2(2019_9_8)/test9_8/Main.class">
+    <entry file="file://$PROJECT_DIR$/out/production/java11clss2(2019_9_8)/test9_8/Main.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class1(2019_9_5)/src/test9_5/List.java">
+    <entry file="file://$PROJECT_DIR$/java11class1(2019_9_5)/src/test9_5/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11clss2(2019_9_8)/src/test9_8/Main.java">
+    <entry file="file://$PROJECT_DIR$/java11clss2(2019_9_8)/src/test9_8/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class1(2019_9_5)/src/test9_5/Test.java">
+    <entry file="file://$PROJECT_DIR$/java11class1(2019_9_5)/src/test9_5/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/out/production/java11clss2(2019_9_8)/test9_8/Main.class">
+    <entry file="file://$PROJECT_DIR$/out/production/java11clss2(2019_9_8)/test9_8/Main.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class1(2019_9_5)/src/test9_5/List.java">
+    <entry file="file://$PROJECT_DIR$/java11class1(2019_9_5)/src/test9_5/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11clss2(2019_9_8)/src/test9_8/Main.java">
+    <entry file="file://$PROJECT_DIR$/java11clss2(2019_9_8)/src/test9_8/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class1(2019_9_5)/src/test9_5/Test.java">
+    <entry file="file://$PROJECT_DIR$/java11class1(2019_9_5)/src/test9_5/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class1(2019_9_5)/src/test9_5/List.java">
+    <entry file="file://$PROJECT_DIR$/java11class1(2019_9_5)/src/test9_5/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class2(2019_9_8)/src/test9_8/Main.java" />
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class1(2019_9_5)/src/test9_5/Test.java">
+    <entry file="file://$PROJECT_DIR$/java11class2(2019_9_8)/src/test9_8/Main.java" />
+    <entry file="file://$PROJECT_DIR$/java11class1(2019_9_5)/src/test9_5/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
           <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class1(2019_9_5)/src/test9_5/List.java">
+    <entry file="file://$PROJECT_DIR$/java11class1(2019_9_5)/src/test9_5/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/src/test9_5/Test1.java" />
-    <entry file="file://$PROJECT_DIR$/../Java11/src/test9_5/Axb.java" />
-    <entry file="file://$PROJECT_DIR$/../Java11/src/test9_5/List0.java" />
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class2(2019_9_8)/src/src/test9_5/Test.java" />
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class2(2019_9_8)/src/src/test9_5/List.java" />
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class2(2019_9_8)/src/test9_8/Main.java" />
-    <entry file="file://$PROJECT_DIR$/../Java11/out/production/java11clss2(2019_9_8)/test9_8/Main.class">
+    <entry file="file://$PROJECT_DIR$/src/test9_5/Test1.java" />
+    <entry file="file://$PROJECT_DIR$/src/test9_5/Axb.java" />
+    <entry file="file://$PROJECT_DIR$/src/test9_5/List0.java" />
+    <entry file="file://$PROJECT_DIR$/java11class2(2019_9_8)/src/src/test9_5/Test.java" />
+    <entry file="file://$PROJECT_DIR$/java11class2(2019_9_8)/src/src/test9_5/List.java" />
+    <entry file="file://$PROJECT_DIR$/java11class2(2019_9_8)/src/test9_8/Main.java" />
+    <entry file="file://$PROJECT_DIR$/out/production/java11clss2(2019_9_8)/test9_8/Main.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11clss2(2019_9_8)/src/test9_8/AddTest.java">
+    <entry file="file://$PROJECT_DIR$/java11clss2(2019_9_8)/src/test9_8/AddTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/Test/src/test_String/Test.java">
+    <entry file="file://$PROJECT_DIR$/Test/src/test_String/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/Test/src/test_String/SplitString.java">
+    <entry file="file://$PROJECT_DIR$/Test/src/test_String/SplitString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/Test/src/test_String/StringPractice.java">
+    <entry file="file://$PROJECT_DIR$/Test/src/test_String/StringPractice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/Test/src/likou/Main.java">
+    <entry file="file://$PROJECT_DIR$/Test/src/likou/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-277">
           <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/Test/src/mystack/Main.java">
+    <entry file="file://$PROJECT_DIR$/Test/src/mystack/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/Java11class6(2019_9_14)/src/test_9_14/Node.java" />
-    <entry file="file://$PROJECT_DIR$/../Java11/Java11class6(2019_9_14)/src/test_9_14/BinaryTree.java" />
-    <entry file="file://$PROJECT_DIR$/../Java11/Test/src/demomath/DemoMath.java" />
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class3(2019_9_10)/src/test_9_10/Main.java">
+    <entry file="file://$PROJECT_DIR$/Java11class6(2019_9_14)/src/test_9_14/Node.java" />
+    <entry file="file://$PROJECT_DIR$/Java11class6(2019_9_14)/src/test_9_14/BinaryTree.java" />
+    <entry file="file://$PROJECT_DIR$/Test/src/demomath/DemoMath.java" />
+    <entry file="file://$PROJECT_DIR$/java11class3(2019_9_10)/src/test_9_10/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2350">
           <caret line="96" column="24" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class3(2019_9_10)/src/test_9_10/Aircle.java">
+    <entry file="file://$PROJECT_DIR$/java11class3(2019_9_10)/src/test_9_10/Aircle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class3(2019_9_10)/src/test_9_10/Student.java">
+    <entry file="file://$PROJECT_DIR$/java11class3(2019_9_10)/src/test_9_10/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-107">
           <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11clss2(2019_9_8)/src/test9_8/Main.java">
+    <entry file="file://$PROJECT_DIR$/java11clss2(2019_9_8)/src/test9_8/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-725">
           <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class1(2019_9_5)/src/test9_5/Test.java">
+    <entry file="file://$PROJECT_DIR$/java11class1(2019_9_5)/src/test9_5/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1175">
           <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/Test/src/arraysKit/test.java">
+    <entry file="file://$PROJECT_DIR$/Test/src/arraysKit/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="12" selection-start-line="12" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/Test/src/test_arraylist/Main.java">
+    <entry file="file://$PROJECT_DIR$/Test/src/test_arraylist/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class1(2019_9_5)/src/test9_5/List.java">
+    <entry file="file://$PROJECT_DIR$/java11class1(2019_9_5)/src/test9_5/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class4(2019_9_14)/src/test_9_14/DemoStack.java">
+    <entry file="file://$PROJECT_DIR$/java11class4(2019_9_14)/src/test_9_14/DemoStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class4(2019_9_14)/src/test_9_14/DequeDemo.java">
+    <entry file="file://$PROJECT_DIR$/java11class4(2019_9_14)/src/test_9_14/DequeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
@@ -875,14 +780,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class4(2019_9_14)/src/test_9_14/LinkedListDemo.java">
+    <entry file="file://$PROJECT_DIR$/java11class4(2019_9_14)/src/test_9_14/LinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class4(2019_9_14)/src/test_9_14/MyQueue.java">
+    <entry file="file://$PROJECT_DIR$/java11class4(2019_9_14)/src/test_9_14/MyQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
@@ -892,7 +797,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class4(2019_9_14)/src/test_9_14/MyStack.java">
+    <entry file="file://$PROJECT_DIR$/java11class4(2019_9_14)/src/test_9_14/MyStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
@@ -902,7 +807,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class4(2019_9_14)/src/test_9_14/QueueDemo.java">
+    <entry file="file://$PROJECT_DIR$/java11class4(2019_9_14)/src/test_9_14/QueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
@@ -912,30 +817,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class5(2019_9_14)/src/test_9_14/Node.java">
+    <entry file="file://$PROJECT_DIR$/java11class5(2019_9_14)/src/test_9_14/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class5(2019_9_14)/src/test_9_14/BinaryTree.java">
+    <entry file="file://$PROJECT_DIR$/java11class5(2019_9_14)/src/test_9_14/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="300">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Java11/java11class6(2019_9_17)/src/test_9_17binarytree/Main.java">
+    <entry file="file://$PROJECT_DIR$/javaWeb/src/img/brithday1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaWeb/src/video/v1 (2).mp4">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaWeb/src/img/beijita.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaWeb/src/javaScript/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="86" column="4" lean-forward="true" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
+        <state relative-caret-position="250">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java11class6(2019_9_17)/src/test_9_17binarytree/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="162" column="22" selection-start-line="162" selection-start-column="22" selection-end-line="162" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#2149#2150#0" expanded="true" />
-            <element signature="e#2185#2186#0" expanded="true" />
           </folding>
         </state>
       </provider>
