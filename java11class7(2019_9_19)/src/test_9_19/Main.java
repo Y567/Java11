@@ -66,8 +66,6 @@ public class Main{
             }
         }
 
-
-
         //判断一棵二叉树是否为完全二叉树（层序遍历的变形）
         public static boolean isCompleteBinaryTree(Node root){
             if(root == null){

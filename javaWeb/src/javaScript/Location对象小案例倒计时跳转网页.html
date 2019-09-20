@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网页自动跳转案例</title>
+    <style>
+        p{
+          text-align:center;
+        }
+        span{
+           color:red;
+        }
+    </style>
+</head>
+
+<body>
+<p>
+    <span id="time">5</span>秒后惊喜会来临哦
+</p>
+
+<script>
+    /*
+    分析：
+    利用定时器实现时间倒计时一旦时间小于0就跳转页面
+    */
+    var time = 5;
+    //这里获取页面元素
+    var temp = document.getElementById("time");
+    function jeap(){
+      time--;
+    if(time <= 0){
+    //这里是小写location大写会跳转失败
+      location.href = "http://www.4399.com/flash/199408_3.htm";
+    }
+    temp.innerHTML = time;
+    }
+    //一秒调用一次实现倒计时
+    setInterval(jeap,1000);
+</script>
+</body>
+</html>

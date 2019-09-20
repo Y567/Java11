@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id = "q" type="button" value="打开按钮">
+<input id = "c" type="button" value="关闭按钮">
+<script>
+    //打开窗口
+    var q = document.getElementById("q");
+    q.onclick = function(){
+       newwindows = open("https://www.baidu.com");
+    }
+
+    //关闭窗口
+    var c= document.getElementById("c");
+    c.onclick = function(){
+    newwindows.close();
+    }
+
+    //定时器有关的方法
+    <!--setTimeout() 在指定毫秒数后调用函数或表达式-->
+    <!--clearTimeout() 取消上述定时器（利用返回值）-->
+    <!--setInterval()  循环定时器-->
+    <!--clearInterval() 取消循环定时器-->
+    var a = setTimeout(fun,3000);
+    function fun(){
+       alert("啦啦啦啦");
+
+    }
+    clearTimeout(a);
+
+</script>
+
+</body>
+</html>
