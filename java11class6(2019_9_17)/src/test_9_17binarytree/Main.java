@@ -20,23 +20,6 @@ class Node {
 }
 public class Main {
 
-    public static Node builderTree(){
-        Node a = new Node('A');
-        Node b = new Node('B');
-        Node c = new Node('C');
-        Node d = new Node('D');
-        Node e = new Node('E');
-        Node f = new Node('F');
-        Node g = new Node('G');
-        Node h = new Node('H');
-        a.left = b; a.right = c;
-        b.left = d; b.right = e;
-        c.left = f; c.right = g;
-        e.right = h;
-        return a;
-
-    }
-
     //按照前序遍历数组和中序遍历数组构建二叉树
     public static Node buildTree1(int[] preorder, int[] inorder) {
         if(preorder.length == 0){
@@ -179,6 +162,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println("xiaoboge");
+        System.out.println("gaonangniang");
     }
  }
