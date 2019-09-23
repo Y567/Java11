@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动态表格</title>
+    <style>
+        body{
+            background-image: url("../img/picture (3).jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        div{
+            text-align: center;
+            margin: auto;
+        }
+        tr,td{
+            text-align: center;
+            margin: auto;
+        }
+        table{
+            margin:auto;
+            border: aqua 1px solid;
+            width: 500px;
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    <input type="text" placeholder="请输入编号" id="id">
+    <input type="text" placeholder="请输入姓名" id="name">
+    <input type="text" placeholder="请输入性别" id="gender">
+    <input type="button" value="添加" id = "but">
+</div>
+<table>
+    <caption>学生信息管理系统</caption><br><br>
+    <tr>
+        <th>编号</th>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>操作</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>阿狗</td>
+        <td>女</td>
+        <td><a href="javascript:void(0)" onclick="delTr(this);">删除</a></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>阿崇</td>
+        <td>男</td>
+        <td><a href="javascript:void(0)" onclick="delTr(this);">删除</a></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>阿强</td>
+        <td>？</td>
+        <td><a href="javascript:void(0)" onclick="delTr(this);">删除</a></td>
+    </tr>
+</table>
+
+<script>
+    /**
+     * 1.添加功能
+     * 前提已经取得按钮元素之后为其添加点击事件
+     *    1.先获取文本框的内容
+     *    2.将内容的值创建节点并加入td
+     *    3.创建tr,将td元素加入tr
+     *    4.在将tr加入table
+     * 2.删除功能
+     * 前提已经取得超链接元素的Dom对象
+     *    1.先得知道点击的是哪一个删除，因为表格里不止一个删除
+     *    2.为删除添加对应的事件
+     *    3.获取点击的哪一行的parent然后删除其子节点达到删除的目的
+     */
+//第一种方式（通过对象的形式）
+//     document.getElementById("but").onclick = function(){
+//         //获取文本元素的文本内容
+//         var text_id = document.getElementById("id").value;
+//         var text_name = document.getElementById("name").value;
+//         var text_gender = document.getElementById("gender").value;
+//         //将其转换为文本节点，之后好加入td
+//         var id_add = document.createTextNode(text_id);
+//         var name_add = document.createTextNode(text_name);
+//         var gender_add = document.createTextNode(text_gender);
+//         var a_add = document.createElement("a");
+//         //加入他们自己的td中，不过之前得先创建tr标签
+//         var new_tr = document.createElement("tr");
+//         var new_td0 = document.createElement("td");
+//         var new_td1 = document.createElement("td");
+//         var new_td2 = document.createElement("td");
+//         var new_a = document.createElement("td");
+//         new_td0.appendChild(id_add);
+//         new_td1.appendChild(name_add);
+//         new_td2.appendChild(gender_add);
+//         //改变a的属性
+//         a_add.setAttribute("href","javascript:void(0);");
+//         //一定要加this,否则不知道你点击的是哪一个<a>标签
+//         a_add.setAttribute("onclick","delTr(this);");
+//         var text_a = document.createTextNode("删除");
+//         a_add.appendChild(text_a);
+//         new_a.appendChild(a_add);
+//         new_tr.appendChild(new_td0);
+//         new_tr.appendChild(new_td1);
+//         new_tr.appendChild(new_td2);
+//         new_tr.appendChild(new_a);
+//         //接下来获取table将新的tr加入到表格中
+//         var parent = document.getElementsByTagName("table")[0];
+//         parent.appendChild(new_tr);
+//         //上述代码实现了添加但没有添加相应的操作以及事件，下面代码将实现删除操作
+//     }
+
+//第二种通过HTML Dom对象的innerHTML属性添加(简单方便)
+    document.getElementById("but").onclick = function() {
+        //获取文本元素的文本内容
+        var text_id = document.getElementById("id").value;
+        var text_name = document.getElementById("name").value;
+        var text_gender = document.getElementById("gender").value;
+
+        //获取table然后添加其利用innerHTML添加标签体
+        var table = document.getElementsByTagName("table")[0];
+        table.innerHTML += "  <tr>\n" +
+            "        <td>"+text_id+"</td>\n" +
+            "        <td>"+text_name+"</td>\n" +
+            "        <td>"+text_gender+"</td>\n" +
+            "        <td><a href=\"javascript:void(0)\" onclick=\"delTr(this);\">删除</a></td>\n" +
+            "    </tr>"
+    }
+    //删除的事件，但是不能删除新增的节点，因为新增的节点在加入的时候没有考虑删除属性，我们为他加上就可以了
+    function delTr(obj){
+        //获取3次就找到了table标签
+        var table = obj.parentNode.parentNode.parentNode;
+        //获取2次就找到了需要删除的行标签
+        var deltr = obj.parentNode.parentNode;
+        table.removeChild(deltr);
+    }
+</script>
+</body>
+</html>
