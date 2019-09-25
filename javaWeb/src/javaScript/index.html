@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小游戏集合网</title>
+    <style>
+        body{
+            background-image: url("../img/picture (3).jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        p{
+            color: lawngreen;
+            font-size:25px;
+        }
+        label{
+            color: lawngreen;
+        }
+        table{
+            width: 500px;
+        }
+        .td_left{
+            text-align: right;
+            width: 100px;
+        }
+        .td_right{
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+        .layout{
+            width: 500px;
+            height:300px;
+            opacity: 0.6;
+            border: 1px solid palegreen;
+            margin: auto;
+            margin-top: 125px;
+        }
+        a{
+            float: right;
+            color: hotpink;
+        }
+        #username,#password{
+            border: 1px solid cornflowerblue;
+            width: 251px;
+            height: 32px;
+            border-radius: 10px;
+            padding-left: 10px;
+            margin-left: 50px;
+        }
+        #login{
+            float: left;
+            padding: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 10px;
+        }
+        #enroll{
+            padding: 10px;
+            padding-left: 25px;
+            padding-right: 25px;
+            float: right;
+            border-radius: 10px;
+        }
+        .time{
+            font-style: oblique;
+            color: powderblue;
+        }
+    </style>
+</head>
+<body>
+<div class = "layout">
+    <form action="#" method="post">
+        <table>
+            <caption><p>欢迎小友登录</p></caption>
+            <tr>
+                <td class="td_left"><label for="username">用户名：</label></td>
+                <td class="td_right"><input id="username" type="text" name="username" placeholder="请输入您的昵称（邮箱地址）"></td>
+            </tr>
+            <tr>
+                <td class="td_left"><label for = "password">密码：</label></td>
+                <td class="td_right"><input id="password" type="password" name="password" placeholder="请输入您的密码"></td>
+            </tr>
+            <tr>
+                <td class="td_left"><input type="checkbox" name="remember"><label>记住密码</label></td>
+                <td class="td_right"><a href="">忘记密码?</a></td>
+            </tr>
+            <tr>
+                <td class="td_left"><input id="login" type="submit" value="登录" onclick=""></td>
+                <td  class="td_right"><input id="enroll" type="button" value="注册" onclick=""></td>
+            </tr>
+        </table>
+    </form>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<hr color="palegreen"/>
+<div class = "time"></div>
+<script>
+    //加时间
+    var t = document.getElementsByClassName("time")[0];
+    function time(){
+        var time = new Date();
+        var year = time.getFullYear();
+        var month = time.getMonth();
+        var day = time.getDay();
+        var hour = time.getHours();
+        var minute = time.getMinutes();
+        var seconds = time.getSeconds();
+        t.innerHTML = "当前时间："+ year + "年" + month + "月" +day + "日" + hour +":" + minute + ":" + seconds;
+    }
+    setInterval(time,1000);
+    var enroll = document.getElementById("enroll");
+    enroll.onclick = function () {
+        location.href = "enroll.html";
+    }
+</script>
+</body>
+</html>
