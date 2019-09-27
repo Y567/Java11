@@ -135,6 +135,20 @@
         var deltr = obj.parentNode.parentNode;
         table.removeChild(deltr);
     }
+
+    //添加改变背景颜色的代码（2019_9_27）
+    var trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        //添加移入改变颜色事件
+        trs[i].onmouseover = function(){
+            this.style.backgroundColor = "pink";
+        }
+        //添加移出事件
+        trs[i].onmouseout = function(){
+            //这个属性保证了移出的时候，恢复原有的背景色
+            this.style.backgroundColor = "transparent";
+        }
+    }
 </script>
 </body>
 </html>
