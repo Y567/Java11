@@ -49,11 +49,6 @@ public class Main {
         map.put("6","xiaobo");
         map.put("7","xiaobo");
 
-
-        System.out.println(map.get("小博哥"));
-        System.out.println(map.getOrDefault("小博哥","小方方"));
-        System.out.println(map.containsKey("小博哥"));
-        System.out.println(map.containsValue("最帅"));
         System.out.println("map集合的内容如下");
         System.out.println(map);
         for (Map.Entry<String,String> entry: map.entrySet()
