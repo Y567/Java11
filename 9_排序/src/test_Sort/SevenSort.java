@@ -1,6 +1,5 @@
 package test_Sort;
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class SevenSort {
@@ -24,13 +23,13 @@ public class SevenSort {
 
     //测试排序时间
     public static long testTime(){
-        int[] test = new int[10000];
+        int[] test = new int[200000];
         Random r = new Random();
-        for (int i = 0; i < 10000; i++) {
-            test[i] = r.nextInt(10000);
+        for (int i = 0; i < 200000; i++) {
+            test[i] = r.nextInt(100);
         }
         long start = System.currentTimeMillis();
-        shellSort(test);
+        quickSort(test,0,test.length-1);
         long end = System.currentTimeMillis();
         return end-start;
     }
@@ -146,33 +145,78 @@ public class SevenSort {
     }
 
     //快速排序(填坑+挖坑)
-    public static void quickSort(int[] array,int low,int high){
-        int left = low;
-        int right = high;
-        //key为基准值
-        int key = array[low];
-        while(left < right){
-            while(left < right && array[right] > key){
-                right--;
+    public static void quickSort(int[] a,int low,int high){
+        int i = low;
+        int j = high;
+        int key = a[low];
+        while(i < j){
+            while (i < j && a[j] >= key){
+                j--;
             }
-            if(left < right){
-                array[left++] = array[right];
+            if(i < j){
+                a[i++] = a[j];
             }
-            while(left < right && array[left] < key){
-                left++;
+            while(i < j && a[i] <= key){
+                i++;
             }
-            if(left < right){
-                array[right--] = array[left];
-            }
-            array[left] = key;
-            if(low < left - 1){
-                quickSort(array,low,left-1);
-            }
-            if(high > left + 1){
-                quickSort(array,left+1,high);
+            if(i < j){
+                a[j--] = a[i];
             }
         }
+        //注意下面的代码放在好理解，虽然在循环体里也可以成功运行但是不好懂
+        a[i] = key;
+        if(low < i - 1){
+            quickSort(a,low,i-1);
+        }
+        if(high > i + 1){
+            quickSort(a,i+1,high);
+        }
     }
+
+    //归并排序(未优化的版本)
+    public static void mergeSort(int[] array){
+        //这里可以定义一个和原数组长度相等的数组传下去（减少额外的空间消耗）
+        mergeSortInter(array,0,array.length);
+    }
+
+    private static void mergeSortInter(int[] array, int low, int high) {
+        if(low >= high - 1){
+            return;
+        }
+        int mid = (low + high) / 2;
+        mergeSortInter(array,low,mid);
+        mergeSortInter(array,mid,high);
+        merge(array,low,mid,high);
+    }
+
+    //合并的方法(需要额外的空间)
+    public static void merge(int[] array,int low,int mid,int high){
+        int length = high - low;
+        int[] temp = new int[length];
+        int i = low;
+        int j = mid;
+        int index = 0;
+        while(i < mid && j < high){
+            if(array[i] <= array[j]){
+                temp[index++] = array[i++];
+            }else{
+                temp[index++] = array[j++];
+            }
+        }
+        while(i < mid){
+            temp[index++] = array[i++];
+        }
+        while(j < high){
+            temp[index++] = array[j++];
+        }
+        //这里不会可以带入0想一想
+        for(int x = 0;x < temp.length;x++){
+            array[low+x] = temp[x];
+        }
+    }
+
+    //非递归版本的归并排序
+//    public static void
     public static void main(String[] args) {
         int[] a = {9,5,2,7,12,2,4,6,9,23};
         //拷贝数组(拷贝一份完整的数组)
@@ -186,8 +230,10 @@ public class SevenSort {
 //        //堆排序
 //        heapSort(b);
         //快排
-        quickSort(b,0,b.length-1);
-        System.out.println(Arrays.toString(b));
-        System.out.println("插入排序时间"+testTime()+"毫秒");
+//        quickSort(b,0,b.length-1);
+//        //归并排序
+//        mergeSort(b);
+//        System.out.println(Arrays.toString(b));
+        System.out.println("快速排序时间"+testTime()+"毫秒");
     }
 }
