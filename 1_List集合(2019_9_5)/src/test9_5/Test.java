@@ -53,5 +53,6 @@ public class Test {
         t.fun();            //编译器不认，编译期间编译器只认引用类型，只有执行期间才认对象
         Arrayist a = (Arrayist) t;
         a.fun();//强转（向下转型）
+        System.out.println("成功了");
     }
 }
