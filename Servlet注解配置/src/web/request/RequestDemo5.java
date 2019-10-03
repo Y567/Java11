@@ -42,4 +42,9 @@ public class RequestDemo5 extends HttpServlet {
             System.out.println(s+":"+ Arrays.toString(parameterMap.get(s)));
         }
     }
+
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        this.doPost(req,resp);
+    }
 }
