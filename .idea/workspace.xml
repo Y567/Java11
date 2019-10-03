@@ -6,28 +6,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07a45901-b95b-4b08-8cf7-6b358e2b6788" name="Default" comment="1、增加了归并排序算法&#10;2、Compare接口自然排序和Comparator比较器非自然排序（总的来说就是）&#10;3.Tomcat在idea上的部署与启动">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Servlet_war_exploded2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8_优先级队列（堆）/8_优先级队列（堆）.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Servlet注解配置/Servlet注解配置.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Servlet注解配置/src/web/ServletDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Servlet注解配置/src/web/ServletHttpServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Servlet注解配置/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Servlet注解配置/web/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tomcat_FirstWeb/src/web/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="07a45901-b95b-4b08-8cf7-6b358e2b6788" name="Default" comment="1.servlet的测试">
+      <change afterPath="$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet注解配置/src/web/servlet/ServletDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet注解配置/src/web/servlet/ServletHttpServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet注解配置/web/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Servlet注解配置/web/register2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tomcat_FirstWeb/web/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_List集合(2019_9_5)/java11class1(2019_9_5).iml" beforeDir="false" afterPath="$PROJECT_DIR$/1_List集合(2019_9_5)/1_List集合(2019_9_5).iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_List集合(2019_9_5)/src/test9_5/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_List集合(2019_9_5)/src/test9_5/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Map的简单认识(2019_9_8)/java11clss2(2019_9_8).iml" beforeDir="false" afterPath="$PROJECT_DIR$/2_Map的简单认识(2019_9_8)/2_Map的简单认识(2019_9_8).iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3_利用集合模拟扑克牌(2019_9_10)/java11class3(2019_9_10).iml" beforeDir="false" afterPath="$PROJECT_DIR$/3_利用集合模拟扑克牌(2019_9_10)/3_利用集合模拟扑克牌(2019_9_10).iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_栈队列/java11class4(2019_9_14).iml" beforeDir="false" afterPath="$PROJECT_DIR$/4_栈队列/4_栈队列.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_二叉树/java11class5(2019_9_14).iml" beforeDir="false" afterPath="$PROJECT_DIR$/5_二叉树/5_二叉树.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_二叉树2/java11class6(2019_9_17).iml" beforeDir="false" afterPath="$PROJECT_DIR$/6_二叉树2/6_二叉树2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_二叉树的层序遍历/java11class7(2019_9_19).iml" beforeDir="false" afterPath="$PROJECT_DIR$/7_二叉树的层序遍历/7_二叉树的层序遍历.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8_优先级队列（堆）/java11class8(2019_9_22).iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java11.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tomcat_FirstWeb/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tomcat_FirstWeb/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/ServletDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/ServletHttpServlet.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,55 +34,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tomcat_FirstWeb/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Servlet注解配置/web/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
+            <state relative-caret-position="134">
               <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Servlet注解配置/Servlet注解配置.iml">
+        <entry file="file://$PROJECT_DIR$/Tomcat_FirstWeb/web/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="132">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tomcat_FirstWeb/web/hellobaby.html">
+        <entry file="file://$PROJECT_DIR$/Servlet注解配置/src/web/servlet/ServletDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="45">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tomcat_FirstWeb/web/index.jsp">
+        <entry file="file://$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Servlet注解配置/src/web/ServletHttpServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-322">
-              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="749">
+              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,37 +73,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Servlet注解配置/web/index.jsp">
+        <entry file="file://$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="7" />
+            <state relative-caret-position="-34">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Servlet注解配置/src/web/ServletDemo.java">
+        <entry file="file://$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="193">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2_Map的简单认识(2019_9_8)/src/test9_8/Main.java">
+        <entry file="file://$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1250">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="121">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/8_优先级队列（堆）/src/test_9_22/MyPriorityQueue.java">
+        <entry file="file://$PROJECT_DIR$/Servlet注解配置/web/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="175">
+              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Servlet注解配置/web/register2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -158,17 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java11class4(2019_9_14)/src/test_9_14/MyQueue.java" />
-        <option value="$PROJECT_DIR$/java11class5(2019_9_14)/src/test_9_14/Node.java" />
-        <option value="$PROJECT_DIR$/java11class5(2019_9_14)/src/test_9_14/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/Java11class6(2019_9_14)/src/test_9_14/Node.java" />
-        <option value="$PROJECT_DIR$/Java11class6(2019_9_14)/src/test_9_14/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/Test/src/arraysKit/test.java" />
-        <option value="$PROJECT_DIR$/Test/src/demomath/DemoMath.java" />
-        <option value="$PROJECT_DIR$/java11class5(2019_9_14)/src/test_9_14/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/java11class7(2019_9_19)/src/test_9_19/Solution.java" />
-        <option value="$PROJECT_DIR$/java11class7(2019_9_19)/src/test_9_19/Main.java" />
-        <option value="$PROJECT_DIR$/javaWeb/src/javaScript/window_打开与管壁.html" />
         <option value="$PROJECT_DIR$/javaWeb/src/javaScript/window_打开与关闭.html" />
         <option value="$PROJECT_DIR$/javaWeb/src/javaScript/windows_案例1轮播图.html" />
         <option value="$PROJECT_DIR$/javaWeb/src/javaScript/Location对象小案例倒计时跳转网页.html" />
@@ -203,12 +190,23 @@
         <option value="$PROJECT_DIR$/Tomcat_FirstWeb/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/2_Map的简单认识(2019_9_8)/src/test9_8/AddTest.java" />
         <option value="$PROJECT_DIR$/1_List集合(2019_9_5)/src/test9_5/Test.java" />
-        <option value="$PROJECT_DIR$/Servlet注解配置/src/web/ServletDemo.java" />
         <option value="$PROJECT_DIR$/Servlet注解配置/src/web/HttpservletTest.html" />
         <option value="$PROJECT_DIR$/Servlet注解配置/web/HttpservletTest.html" />
         <option value="$PROJECT_DIR$/Servlet注解配置/web/index.jsp" />
-        <option value="$PROJECT_DIR$/Servlet注解配置/web/login.html" />
         <option value="$PROJECT_DIR$/Servlet注解配置/src/web/ServletHttpServlet.java" />
+        <option value="$PROJECT_DIR$/Servlet注解配置/src/web/ServletDemo.java" />
+        <option value="$PROJECT_DIR$/Servlet注解配置/src/web/servlet/ServletDemo.java" />
+        <option value="$PROJECT_DIR$/Servlet注解配置/src/web/servlet/ServletHttpServlet.java" />
+        <option value="$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo1.java" />
+        <option value="$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo2.java" />
+        <option value="$PROJECT_DIR$/Servlet注解配置/web/login.html" />
+        <option value="$PROJECT_DIR$/Tomcat_FirstWeb/web/index.html" />
+        <option value="$PROJECT_DIR$/Tomcat_FirstWeb/web/login.html" />
+        <option value="$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo3.java" />
+        <option value="$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo4.java" />
+        <option value="$PROJECT_DIR$/Servlet注解配置/web/register.html" />
+        <option value="$PROJECT_DIR$/Servlet注解配置/web/register2.html" />
+        <option value="$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo5.java" />
       </list>
     </option>
   </component>
@@ -262,6 +260,31 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java11" type="462c0819:PsiDirectoryNode" />
+              <item name="Servlet注解配置" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java11" type="462c0819:PsiDirectoryNode" />
+              <item name="Servlet注解配置" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java11" type="462c0819:PsiDirectoryNode" />
+              <item name="Tomcat_FirstWeb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java11" type="462c0819:PsiDirectoryNode" />
+              <item name="Tomcat_FirstWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -284,11 +307,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Java11\Servlet注解配置\web" />
       <recent name="E:\Java11\java11class2(2019_9_8)\src" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="web.request" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java11\Servlet注解配置\web" />
       <recent name="E:\Java11\java11class2(2019_9_8)\src" />
     </key>
   </component>
@@ -327,22 +354,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test9_5.Test" />
-      <module name="1_List集合(2019_9_5)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test9_5.Test" />
-      <module name="Java11" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -357,24 +368,86 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hellobaby.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:80/Tomcat_FirstWeb_war_exploded/hellobaby.html">
+    <configuration name="login.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/request/login.html">
       <method v="2" />
     </configuration>
     <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/Servlet_war_exploded2/login.html">
       <method v="2" />
+    </configuration>
+    <configuration name="register.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8081/request/register.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.46" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Tomcat_FirstWeb:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Tomcat8" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_46_(1)_Java11" />
+        <option name="JNDI_PORT" value="1088" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="10239" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Tomcat_FirstWeb:war exploded" />
+        </option>
+      </method>
     </configuration>
     <configuration name="Tomcat 8.5.46" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.46" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Servlet注解配置:war exploded2">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/request" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="_Java11" />
-        <option name="HTTP_PORT" value="8080" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="1090" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -469,18 +542,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="login.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.46" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="index.html (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.46" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/index.html" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Servlet注解配置:war exploded2">
+        <artifact name="Tomcat_FirstWeb:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/Servlet_war_exploded2" />
+            <option name="CONTEXT_PATH" value="/Tomcat_FirstWeb_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="_Java11" />
-        <option name="HTTP_PORT" value="8080" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -523,25 +596,84 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Servlet注解配置:war exploded2" />
+          <artifact name="Tomcat_FirstWeb:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="index.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.46" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/index.html" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Tomcat_FirstWeb:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Tomcat_FirstWeb_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Java11" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="10239" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Tomcat_FirstWeb:war exploded" />
         </option>
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Test (1)" />
-      <item itemvalue="JavaScript Debug.hellobaby.html" />
       <item itemvalue="JavaScript Debug.login.html" />
+      <item itemvalue="JavaScript Debug.login.html (1)" />
+      <item itemvalue="JavaScript Debug.register.html" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.46" />
-      <item itemvalue="Tomcat Server.login.html" />
+      <item itemvalue="Tomcat Server.Tomcat 8" />
+      <item itemvalue="Tomcat Server.index.html" />
+      <item itemvalue="Tomcat Server.index.html (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.register.html" />
+        <item itemvalue="Tomcat Server.index.html (1)" />
+        <item itemvalue="Tomcat Server.index.html" />
+        <item itemvalue="JavaScript Debug.login.html (1)" />
         <item itemvalue="JavaScript Debug.login.html" />
-        <item itemvalue="Tomcat Server.login.html" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="JavaScript Debug.hellobaby.html" />
       </list>
     </recent_temporary>
   </component>
@@ -708,8 +840,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18078668" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18305598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -719,7 +852,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.34369886" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.44189852" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -815,71 +948,10 @@
     <MESSAGE value="动态表格添加了表格行的背景随鼠标移入移出而改变的功能" />
     <MESSAGE value="1、完善了排序算法&#10;2、module重命名了一下" />
     <MESSAGE value="1、增加了归并排序算法&#10;2、Compare接口自然排序和Comparator比较器非自然排序（总的来说就是）&#10;3.Tomcat在idea上的部署与启动" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、增加了归并排序算法&#10;2、Compare接口自然排序和Comparator比较器非自然排序（总的来说就是）&#10;3.Tomcat在idea上的部署与启动" />
+    <MESSAGE value="1.servlet的测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.servlet的测试" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javaWeb/src/img/picture (2).jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaWeb/src/javaScript/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaWeb/src/javaScript/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaWeb/src/javaScript/利用核心Dom对象（document,Node,element）实现小案例动态表格.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3600">
-          <caret line="144" column="9" selection-start-line="144" selection-start-column="9" selection-end-line="144" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaWeb/src/javaScript/window_对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaWeb/src/javaScript/Location_Time.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaWeb/src/javaScript/windows_案例1轮播图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaWeb/src/img/picture (3).jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaWeb/src/javaScript/enroll.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2425">
-          <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3_利用集合模拟扑克牌(2019_9_10)/src/test_9_10/Aircle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3_利用集合模拟扑克牌(2019_9_10)/src/test_9_10/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
@@ -1066,6 +1138,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tomcat_FirstWeb/web/secondTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tomcat_FirstWeb/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet注解配置/Servlet注解配置.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tomcat_FirstWeb/web/hellobaby.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tomcat_FirstWeb/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet注解配置/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2_Map的简单认识(2019_9_8)/src/test9_8/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1250">
@@ -1080,69 +1194,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tomcat_FirstWeb/web/hellobaby.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tomcat_FirstWeb/web/secondTest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tomcat_FirstWeb/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tomcat_FirstWeb/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Servlet注解配置/Servlet注解配置.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Servlet注解配置/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Servlet注解配置/web/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Servlet注解配置/src/web/ServletDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="525">
+          <caret line="27" lean-forward="true" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Servlet注解配置/src/web/ServletHttpServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-322">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="162">
+          <caret line="13" column="23" lean-forward="true" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet注解配置/src/web/servlet/ServletHttpServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet注解配置/src/web/servlet/ServletDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet注解配置/web/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tomcat_FirstWeb/web/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet注解配置/web/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet注解配置/web/register2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
         </state>
       </provider>
     </entry>
