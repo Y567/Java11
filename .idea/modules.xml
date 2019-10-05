@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/Java11.iml" filepath="$PROJECT_DIR$/Java11.iml" />
       <module fileurl="file://$PROJECT_DIR$/Login登录案例（未连接数据库）/Login登录案例（未连接数据库）.iml" filepath="$PROJECT_DIR$/Login登录案例（未连接数据库）/Login登录案例（未连接数据库）.iml" />
       <module fileurl="file://$PROJECT_DIR$/Servlet注解配置/Servlet注解配置.iml" filepath="$PROJECT_DIR$/Servlet注解配置/Servlet注解配置.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TCP通信协议/TCP通信协议.iml" filepath="$PROJECT_DIR$/TCP通信协议/TCP通信协议.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tomcat_FirstWeb/Tomcat_FirstWeb.iml" filepath="$PROJECT_DIR$/Tomcat_FirstWeb/Tomcat_FirstWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaWeb/javaWeb.iml" filepath="$PROJECT_DIR$/javaWeb/javaWeb.iml" />
