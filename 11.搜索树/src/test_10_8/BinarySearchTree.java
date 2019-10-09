@@ -118,7 +118,6 @@ public class BinarySearchTree {
                 goatParent = goat;
                 goat = goat.left;
             }
-
             cur.key = goat.key;
             //cur.value = goat.value;
 
