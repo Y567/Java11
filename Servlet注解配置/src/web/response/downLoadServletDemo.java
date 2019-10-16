@@ -30,6 +30,16 @@ public class downLoadServletDemo extends HttpServlet {
         resp.setHeader("content-disposition","attachment;filename="+filename);
 
 
+        //解决中文乱码的问题
+        //先获得请求头得到客户端版本信息
+        String header = req.getHeader("user-agent");
+        if(header.contains("IE")){
+            resp.setCharacterEncoding("utf-8");
+        }else if(header.contains("Chrome")){
+            resp.setContentType("GBK");
+        }else{
+            resp.setContentType("utf-8");
+        }
         String realPath = servletContext.getRealPath("/movies/"+filename);
         //利用文件输入流将文件加载入内存
         FileInputStream fis = new FileInputStream(realPath);
