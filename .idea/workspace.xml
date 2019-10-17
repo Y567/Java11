@@ -7,15 +7,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07a45901-b95b-4b08-8cf7-6b358e2b6788" name="Default" comment="Cookie是数据共享问题">
-      <change afterPath="$PROJECT_DIR$/15.String/src/subString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16.Banker/16.Banker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16.Banker/src/Banker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17.异常/17.异常.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17.异常/src/Exception.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="07a45901-b95b-4b08-8cf7-6b358e2b6788" name="Default" comment="1.银行家算法&#10;2.异常的认识">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15.String/src/MyString.java" beforeDir="false" afterPath="$PROJECT_DIR$/15.String/src/MyString.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/15.String/src/MyString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-325">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="200">
+              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#293#294#0" expanded="true" />
@@ -249,17 +242,6 @@
             <path>
               <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java11" type="462c0819:PsiDirectoryNode" />
-              <item name="15.String" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java11" type="462c0819:PsiDirectoryNode" />
-              <item name="15.String" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
@@ -834,7 +816,6 @@
       <path value="$PROJECT_DIR$/java11clss2(2019_9_8)/src/test9_8" />
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="关于二叉树的一系列知识点&#10;1.实现了二叉树的简单创建&#10;2.二叉树的前，中，后遍历&#10;3.求叶子结点&#10;4.用两种思想实现遍历和叶子结点个数（汇总思想和遍历思想）" />
     <MESSAGE value="关于二叉树的一系列知识点更新&#10;1.利用前序遍历和中序遍历数组创建二叉树&#10;2.利用后序遍历和中序遍历数组创建二叉树&#10;3.一道算法题（求两个给定结点的最近公共祖先）" />
     <MESSAGE value="新增了一个javaWeb小案例&#10;实现鼠标点击切换图片" />
     <MESSAGE value="新增了二叉树的层次遍历及相关变形OJ" />
@@ -859,7 +840,8 @@
     <MESSAGE value="文件下载案例" />
     <MESSAGE value="Cookies" />
     <MESSAGE value="Cookie是数据共享问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cookie是数据共享问题" />
+    <MESSAGE value="1.银行家算法&#10;2.异常的认识" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.银行家算法&#10;2.异常的认识" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Map和Set面试题/src/NumsJewelsInStones.java">
@@ -1264,8 +1246,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/15.String/src/MyString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-325">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="200">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#293#294#0" expanded="true" />
