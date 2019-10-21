@@ -78,7 +78,6 @@
             color: palegreen;
         }
     </style>
-
     <script>
         window.onload = function(){
             document.getElementById("img").onclick = function(){
