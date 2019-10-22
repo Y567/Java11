@@ -8,5 +8,8 @@ public class Exception extends Throwable {
         } finally{
             System.out.println("资源释放");
         }
+        /*try(InputStream is = new FileInputStream("D:\\f.txt")){
+           try第二种使用方法
+        }*/
     }
 }
