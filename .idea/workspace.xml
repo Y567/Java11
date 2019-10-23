@@ -7,17 +7,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07a45901-b95b-4b08-8cf7-6b358e2b6788" name="Default" comment="1.JSP基本使用">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/taglibs_standard_jstlel_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSP，EL和JSTL/src/web/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSP，EL和JSTL/web/el/elDemo1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSP，EL和JSTL/web/el/elDemo2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSP，EL和JSTL/web/el/elDemo3.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSP，EL和JSTL/web/el/elDemo4.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JSP，EL和JSTL/web/jstl/jstlDemo1.jsp" afterDir="false" />
+    <list default="true" id="07a45901-b95b-4b08-8cf7-6b358e2b6788" name="Default" comment="1.EL表达式的获取数据和JSTL的if标签">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSP，EL和JSTL/JSP，EL和JSTL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JSP，EL和JSTL/JSP，EL和JSTL.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +61,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JSP，EL和JSTL/web/jstl/jstlDemo1.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
+            <state relative-caret-position="283">
               <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
@@ -263,21 +254,6 @@
               <item name="Java11" type="462c0819:PsiDirectoryNode" />
               <item name="JSP，EL和JSTL" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java11" type="462c0819:PsiDirectoryNode" />
-              <item name="JSP，EL和JSTL" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java11" type="462c0819:PsiDirectoryNode" />
-              <item name="JSP，EL和JSTL" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -771,7 +747,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49394855" visible="true" weight="0.7446808" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49394855" visible="true" weight="0.13420622" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42716858" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -848,7 +824,6 @@
       <path value="$PROJECT_DIR$/java11clss2(2019_9_8)/src/test9_8" />
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="JavaWeb里增加了两个小案例&#10;1.轮播图&#10;2.自动跳转页面（Location对象）&#10;以及window对象的方法使用和属性" />
     <MESSAGE value="新增了二叉树的前中后序非递归遍历&#10;以及堆的简单实现&#10;1.java中的优先级队列（PriorityQueue）&#10;2.堆的建立和小堆大堆的调整&#10;后续会继续补充完整更多的。。。" />
     <MESSAGE value="JavaWeb新增了一个小案例动态表格&#10;1.实现添加删除功能&#10;2.有两种方式构成（1.核心DOM对象2.HTML DOM对象的innerHTML属性）" />
     <MESSAGE value="JavaWeb新增了一个登录注册界面（只实现了表单验证）&#10;增加了排序算法（写出了直接插入排序和希尔排序后续补全）" />
@@ -873,7 +848,8 @@
     <MESSAGE value="1.利用cookie记录上次访问时间&#10;2.jsp实现上述" />
     <MESSAGE value="1.session存储验证码，实现网页登录案例" />
     <MESSAGE value="1.JSP基本使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.JSP基本使用" />
+    <MESSAGE value="1.EL表达式的获取数据和JSTL的if标签" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.EL表达式的获取数据和JSTL的if标签" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Servlet注解配置/src/web/cookie/CookieDemo4.java">
@@ -1222,7 +1198,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JSP，EL和JSTL/web/jstl/jstlDemo1.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
+        <state relative-caret-position="283">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
