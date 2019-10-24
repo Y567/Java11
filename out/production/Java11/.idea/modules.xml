@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/10_比较引用类型的方法/10_比较引用类型的方法.iml" filepath="$PROJECT_DIR$/10_比较引用类型的方法/10_比较引用类型的方法.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11.搜索树/11.搜索树.iml" filepath="$PROJECT_DIR$/11.搜索树/11.搜索树.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12_Set集合的常用方法/12_Set集合的常用方法.iml" filepath="$PROJECT_DIR$/12_Set集合的常用方法/12_Set集合的常用方法.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13.泛型类/13.泛型类.iml" filepath="$PROJECT_DIR$/13.泛型类/13.泛型类.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14.哈希/14.哈希.iml" filepath="$PROJECT_DIR$/14.哈希/14.哈希.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15.String/15.String.iml" filepath="$PROJECT_DIR$/15.String/15.String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16.Banker/16.Banker.iml" filepath="$PROJECT_DIR$/16.Banker/16.Banker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/17.异常/17.异常.iml" filepath="$PROJECT_DIR$/17.异常/17.异常.iml" />
+      <module fileurl="file://$PROJECT_DIR$/18.测试/18.测试.iml" filepath="$PROJECT_DIR$/18.测试/18.测试.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19.login/19.login.iml" filepath="$PROJECT_DIR$/19.login/19.login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1_List集合(2019_9_5)/1_List集合(2019_9_5).iml" filepath="$PROJECT_DIR$/1_List集合(2019_9_5)/1_List集合(2019_9_5).iml" />
+      <module fileurl="file://$PROJECT_DIR$/2_Map的简单认识(2019_9_8)/2_Map的简单认识(2019_9_8).iml" filepath="$PROJECT_DIR$/2_Map的简单认识(2019_9_8)/2_Map的简单认识(2019_9_8).iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_利用集合模拟扑克牌(2019_9_10)/3_利用集合模拟扑克牌(2019_9_10).iml" filepath="$PROJECT_DIR$/3_利用集合模拟扑克牌(2019_9_10)/3_利用集合模拟扑克牌(2019_9_10).iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_栈队列/4_栈队列.iml" filepath="$PROJECT_DIR$/4_栈队列/4_栈队列.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5_二叉树/5_二叉树.iml" filepath="$PROJECT_DIR$/5_二叉树/5_二叉树.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6_二叉树2/6_二叉树2.iml" filepath="$PROJECT_DIR$/6_二叉树2/6_二叉树2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7_二叉树的层序遍历/7_二叉树的层序遍历.iml" filepath="$PROJECT_DIR$/7_二叉树的层序遍历/7_二叉树的层序遍历.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8_优先级队列（堆）/8_优先级队列（堆）.iml" filepath="$PROJECT_DIR$/8_优先级队列（堆）/8_优先级队列（堆）.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9_排序/9_七大基本排序(2019_9_24).iml" filepath="$PROJECT_DIR$/9_排序/9_七大基本排序(2019_9_24).iml" />
+      <module fileurl="file://$PROJECT_DIR$/JSP，EL和JSTL/JSP，EL和JSTL.iml" filepath="$PROJECT_DIR$/JSP，EL和JSTL/JSP，EL和JSTL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java11.iml" filepath="$PROJECT_DIR$/Java11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Login登录案例（未连接数据库）/Login登录案例（未连接数据库）.iml" filepath="$PROJECT_DIR$/Login登录案例（未连接数据库）/Login登录案例（未连接数据库）.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Map和Set面试题/Map和Set面试题.iml" filepath="$PROJECT_DIR$/Map和Set面试题/Map和Set面试题.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servlet注解配置/Servlet注解配置.iml" filepath="$PROJECT_DIR$/Servlet注解配置/Servlet注解配置.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TCP/TCP通信协议.iml" filepath="$PROJECT_DIR$/TCP/TCP通信协议.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tomcat_FirstWeb/Tomcat_FirstWeb.iml" filepath="$PROJECT_DIR$/Tomcat_FirstWeb/Tomcat_FirstWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaWeb/javaWeb.iml" filepath="$PROJECT_DIR$/javaWeb/javaWeb.iml" />
+    </modules>
+  </component>
+</project>

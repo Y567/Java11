@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>验证码案例</title>
+    <script>
+        window.onload = function() {
+            //图片点击事件
+            var img = document.getElementById("check");
+            img.onclick = function () {
+                //切换地址，但是由于浏览器的缓存，会导致页面不会刷新，所以利用时间戳欺骗浏览器
+                var time = new Date().getMilliseconds();
+                img.src = "/request&respones/checkCodeDemo?"+time;
+            }
+            //链接点击事件
+            var a = document.getElementById("change");
+            a.onclick = function () {
+                a.href = "/request&respones/register3.html";
+            }
+        }
+    </script>
+</head>
+<body>
+<img id="check" src="/request&respones/checkCodeDemo">
+<a id="change" href="/request&respones/checkCodeDemo">看不清？换一张</a>
+</body>
+</html>

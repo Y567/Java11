@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>一个小案例</title>
+</head>
+<body>
+  <img id="test" src="../img/beijita.jpg">
+
+<script>
+    var man = document.getElementById("test");
+    var flag = 1;
+    man.onclick = function(){
+       if(flag % 3 == 1){
+          //此时图片为孙悟空，所以转换为贝吉塔
+          man.src = "../img/beijita.jpg";
+          flag++;
+        }
+        else if(flag % 3 == 2){
+          //此时图片为贝吉塔，所以转换为孙悟空
+          man.src = "../img/wukong.jpg";
+          flag++;
+        }else{
+          //这里由孙悟空切换为变身动图
+          man.src = "../img/biansheng.gif";
+          flag++;
+    }
+    }
+</script>
+</body>
+</html>

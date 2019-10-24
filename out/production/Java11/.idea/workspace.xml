@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JSP，EL和JSTL:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="917028b0-fa2f-4c60-8adf-6611bf11a24c" name="Default Changelist" comment="Merge branch 'master' of https://github.com/Y567/Java11&#10;&#10;# Conflicts:&#10;#&#9;19.login/19.login.iml&#10;#&#9;19.login/src/web/servlet/LoginServlet.java&#10;#&#9;19.login/src/web/servlet/checkCodeDemo.java&#10;#&#9;19.login/web/index.jsp&#10;#&#9;19.login/web/success.jsp">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/19_login_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/19_login_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/taglibs_standard_jstlel_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_比较引用类型的方法/src/test_9_28/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_比较引用类型的方法/src/test_9_28/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.搜索树/11.搜索树.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.搜索树/src/test_10_8/BinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.搜索树/src/test_10_8/Contact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_Set集合的常用方法/12_Set集合的常用方法.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_Set集合的常用方法/src/test_10_8/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.泛型类/13.泛型类.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.泛型类/src/test/Example1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.泛型类/src/test/MyTreeMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14.哈希/14.哈希.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14.哈希/src/HashBucket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14.哈希/src/HashTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/15.String/15.String.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/15.String/src/MyString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/15.String/src/subString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16.Banker/16.Banker.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16.Banker/src/Banker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/17.异常/17.异常.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/17.异常/src/Exception.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/18.测试/18.测试.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/18.测试/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/19.login/web/img/picture(3).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/19.login/web/img/picture(3).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_List集合(2019_9_5)/src/test9_5/List.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_List集合(2019_9_5)/src/test9_5/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Map的简单认识(2019_9_8)/2_Map的简单认识(2019_9_8).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Map的简单认识(2019_9_8)/src/test9_8/AddTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Map的简单认识(2019_9_8)/src/test9_8/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Map的简单认识(2019_9_8)/src/test9_8/NewTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_利用集合模拟扑克牌(2019_9_10)/3_利用集合模拟扑克牌(2019_9_10).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_利用集合模拟扑克牌(2019_9_10)/src/test_9_10/Aircle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_利用集合模拟扑克牌(2019_9_10)/src/test_9_10/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_利用集合模拟扑克牌(2019_9_10)/src/test_9_10/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_栈队列/4_栈队列.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_栈队列/src/test_9_14/DemoStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_栈队列/src/test_9_14/DequeDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_栈队列/src/test_9_14/LinkedListDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_栈队列/src/test_9_14/MyQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_栈队列/src/test_9_14/MyStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_栈队列/src/test_9_14/QueueDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_二叉树/5_二叉树.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_二叉树/src/test_9_14/BinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_二叉树/src/test_9_14/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_二叉树2/6_二叉树2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_二叉树2/src/test_9_17binarytree/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_二叉树的层序遍历/7_二叉树的层序遍历.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_二叉树的层序遍历/src/test_9_19/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_二叉树的层序遍历/src/test_9_19/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_优先级队列（堆）/8_优先级队列（堆）.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_优先级队列（堆）/src/test_9_22/BinaryTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_优先级队列（堆）/src/test_9_22/Heap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_优先级队列（堆）/src/test_9_22/MyPriorityQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_排序/9_七大基本排序(2019_9_24).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_排序/src/test_Sort/SevenSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9_排序/src/test_Sort/SortMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSP，EL和JSTL/JSP，EL和JSTL.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSP，EL和JSTL/src/web/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSP，EL和JSTL/web/WEB-INF/lib/jstl-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSP，EL和JSTL/web/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSP，EL和JSTL/web/el/elDemo1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSP，EL和JSTL/web/el/elDemo2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSP，EL和JSTL/web/el/elDemo3.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSP，EL和JSTL/web/el/elDemo4.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSP，EL和JSTL/web/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSP，EL和JSTL/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSP，EL和JSTL/web/jstl/jstlDemo1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSP，EL和JSTL/web/top.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java11.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login登录案例（未连接数据库）/Login登录案例（未连接数据库）.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login登录案例（未连接数据库）/src/web/servlet/FailServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login登录案例（未连接数据库）/src/web/servlet/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login登录案例（未连接数据库）/src/web/servlet/SuccessServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login登录案例（未连接数据库）/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login登录案例（未连接数据库）/web/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map和Set面试题/Map和Set面试题.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map和Set面试题/src/CopyRandomList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map和Set面试题/src/MyEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map和Set面试题/src/NumsJewelsInStones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map和Set面试题/src/OldKeys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Map和Set面试题/src/TopK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/Servlet注解配置.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/cookie/CookieDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/cookie/CookieDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/cookie/CookieDemo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/cookie/CookieDemo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/cookie/CookieTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/request/RequestDemo9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/response/PrintBytesToClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/response/RequestDirect1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/response/RequestDirect2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/response/checkCodeDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/response/downLoadServletDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/servlet/ServletDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/servlet/ServletHttpServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/servletcontext/ServletContextDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/servletcontext/ServletContextDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/servletcontext/ServletContextDemo3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/servletcontext/ServletContextDemo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/session/SessionDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/src/web/session/SessionDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/web/WEB-INF/c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/web/a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/web/download.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/web/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/web/movies/21_案例_文件下载_代码实现.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/web/movies/鬼泣.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/web/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/web/register2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/web/register3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet注解配置/web/showTime.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCP/TCP通信协议.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCP/src/TCPClient/Client1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCP/src/TCPClient/Client2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCP/src/TCPServer/BSserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCP/src/TCPServer/Server1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCP/src/TCPServer/Server2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCP/src/TCPServer/ServerBetter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCP/web/img/picture(3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCP/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/arraysKit/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/likou/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/likou/searchKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/mystack/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/test_String/SplitString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/test_String/StringPractice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/test_String/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/test_arraylist/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tomcat_FirstWeb/Tomcat_FirstWeb.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tomcat_FirstWeb/src/web/CookieDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tomcat_FirstWeb/src/web/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tomcat_FirstWeb/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tomcat_FirstWeb/web/hellobaby.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tomcat_FirstWeb/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tomcat_FirstWeb/web/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tomcat_FirstWeb/web/secondTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWeb/javaWeb.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWeb/src/img/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWeb/src/img/beijita.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWeb/src/img/biansheng.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWeb/src/img/picture (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWeb/src/img/picture (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWeb/src/img/picture (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWeb/src/img/wukong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWeb/src/javaScript/Location_Time.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWeb/src/javaScript/enroll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWeb/src/javaScript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWeb/src/javaScript/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWeb/src/javaScript/window_对象.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWeb/src/javaScript/windows_案例1轮播图.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaWeb/src/javaScript/利用核心Dom对象（document,Node,element）实现小案例动态表格.html" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JSP，EL和JSTL/web/jstl/jstlDemo1.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/19.login/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JSP，EL和JSTL/src/web/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/JSP，EL和JSTL/web/index.jsp" />
+        <option value="$PROJECT_DIR$/JSP，EL和JSTL/web/jstl/jstlDemo2.jsp" />
+        <option value="$PROJECT_DIR$/JSP，EL和JSTL/web/jstl/jstl2.jsp" />
+        <option value="$PROJECT_DIR$/JSP，EL和JSTL/web/jstl/jstlDemo1.jsp" />
+        <option value="$PROJECT_DIR$/1_List集合(2019_9_5)/src/test9_5/Test.java" />
+        <option value="$PROJECT_DIR$/19.login/src/web/servlet/checkCodeDemo.java" />
+        <option value="$PROJECT_DIR$/19.login/src/web/servlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/JSP，EL和JSTL/web/jstl/test.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="510" />
+    <option name="y" value="40" />
+    <option name="width" value="784" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java11" type="462c0819:PsiDirectoryNode" />
+              <item name="19.login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java11" type="462c0819:PsiDirectoryNode" />
+              <item name="19.login" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java11" type="462c0819:PsiDirectoryNode" />
+              <item name="Map和Set面试题" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.46">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test9_5.Test" />
+      <module name="Java11" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.46" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.46" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="19.login:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/login" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="AJP_PORT" value="1099" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_461_Java11" />
+        <option name="HTTP_PORT" value="8080" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="37116" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="19.login:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.461" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="AJP_PORT" value="1099" />
+        <option name="BASE_DIRECTORY_NAME" value="_Java11_2" />
+        <option name="HTTP_PORT" value="8080" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="37116" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.46" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6195159" visible="true" weight="0.7741408" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.09165303" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49924356" weight="0.22913256" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3804841" side_tool="true" weight="0.61865795" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Tomcat_FirstWeb/web/hellobaby.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tomcat_FirstWeb/web/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSP，EL和JSTL/web/jstl/jstlDemo2.jsp" />
+    <entry file="file://$PROJECT_DIR$/JSP，EL和JSTL/web/jstl/jstl2.jsp" />
+    <entry file="file://$PROJECT_DIR$/JSP，EL和JSTL/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSP，EL和JSTL/JSP，EL和JSTL.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSP，EL和JSTL/web/el/elDemo3.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_List集合(2019_9_5)/src/test9_5/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tomcat_FirstWeb/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Servlet注解配置/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSP，EL和JSTL/web/error.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_List集合(2019_9_5)/src/test9_5/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19.login/src/web/servlet/LoginServlet.java" />
+    <entry file="file://$PROJECT_DIR$/19.login/web/success.jsp" />
+    <entry file="file://$PROJECT_DIR$/Servlet注解配置/src/web/response/checkCodeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19.login/src/web/servlet/checkCodeDemo.java" />
+    <entry file="file://$PROJECT_DIR$/JSP，EL和JSTL/web/jstl/test.jsp" />
+    <entry file="file://$PROJECT_DIR$/Tomcat_FirstWeb/src/web/CookieDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml" />
+    <entry file="file://$PROJECT_DIR$/3_利用集合模拟扑克牌(2019_9_10)/src/test_9_10/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3674">
+          <caret line="201" column="12" selection-start-line="201" selection-start-column="12" selection-end-line="201" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java11.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSP，EL和JSTL/src/web/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSP，EL和JSTL/web/jstl/jstlDemo1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/19.login/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>19.login:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>1_List集合(2019_9_5)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

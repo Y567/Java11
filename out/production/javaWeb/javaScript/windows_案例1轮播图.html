@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小案例轮播图</title>
+</head>
+<body>
+<img id="img" src="../img/picture (1).jpg" width="100%">
+
+<script>
+    /*
+    首先得定义一个方法来改变图片的路径达到图片切换的效果
+    然后定义定时器，循环调用这个方法
+    */
+    var i = 1;
+    function fun(){
+    i++;
+    var img = document.getElementById("img");
+    if(i > 3){
+      i = 1;
+    }
+       img.src = "../img/picture (" + i + ").jpg";
+    }
+    setInterval(fun,3000);
+</script>
+</body>
+</html>

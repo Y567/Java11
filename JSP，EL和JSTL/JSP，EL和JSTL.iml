@@ -17,7 +17,5 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.46" level="application_server_libraries" />
-    <orderEntry type="library" name="taglibs-standard-jstlel-1.2.5" level="project" />
-    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>
