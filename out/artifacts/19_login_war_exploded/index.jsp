@@ -139,7 +139,7 @@
     setInterval(time,1000);
     var enroll = document.getElementById("enroll");
     enroll.onclick = function () {
-        location.href = "enroll.html";
+        location.href = "eroll.jsp";
     }
 </script>
 </body>
