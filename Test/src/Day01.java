@@ -26,6 +26,8 @@ public class Day01 {
             quickSort(a,i+1,end);
         }
     }
+
+
     public int findKth(int[] a, int n, int K) {
         // write code here
         quickSort(a,0,n-1);
@@ -43,5 +45,8 @@ public class Day01 {
         String s = "abc";
         System.out.println(c==s.charAt(2));
 /*        System.out.println(c==c2[2]);*/
+
+
+        System.out.println(100.0%3);
     }
 }
